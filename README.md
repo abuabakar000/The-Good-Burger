@@ -1,12 +1,56 @@
-# React + Vite
+# THE GOOD BURGER (TGB) 🍔
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, high-performance web application for **THE GOOD BURGER (TGB)**, built with React and Tailwind CSS. This project features a premium, responsive design with smooth animations and a seamless user experience.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Responsive Design**: Flawless experience across all screen sizes (Mobile, Tablet, Desktop).
+- **Interactive Menu**: Explore the full carta with categorized navigation.
+- **Promotions & Deals**: Check out the latest offers and "Promos".
+- **Dynamic Animations**: Powered by `framer-motion` for a premium, alive feel.
+- **Scroll Management**: Automatic scroll-to-top on navigation for perfect page transitions.
+- **Clean UI**: Custom `no-scrollbar` utilities and polished spacing for a modern look.
+- **External Integration**: Direct links to official franchise opportunities.
 
-## Expanding the ESLint configuration
+## 🚀 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Frontend**: [React 19](https://react.dev/)
+- **Bundler**: [Vite](https://vitejs.dev/)
+- **Styling**: [Tailwind CSS 4](https://tailwindcss.com/)
+- **Animations**: [Framer Motion](https://www.framer.com/motion/)
+- **Icons**: [Lucide React](https://lucide.dev/)
+- **Routing**: [React Router 7](https://reactrouter.com/)
+
+## 🛠️ Installation & Setup
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/your-username/the-good-burger.git
+   cd the-good-burger
+   ```
+
+2. **Install dependencies**:
+   ```bash
+   npm install
+   ```
+
+3. **Run the development server**:
+   ```bash
+   npm run dev
+   ```
+
+4. **Build for production**:
+   ```bash
+   npm run build
+   ```
+
+## 📂 Project Structure
+
+- `src/components`: Reusable UI components (Hero, Navbar, MenuCategoryNav, etc.).
+- `src/pages`: Main page views (Home, Menu, Deals, Delivery).
+- `src/layouts`: Core layout wrappers.
+- `public/images`: Optimized assets for the application.
+
+## 📄 License
+
+This project is for demonstration purposes. All brand assets (Logo, Images) belong to **THE GOOD BURGER COMPANY, S.L.U.**
