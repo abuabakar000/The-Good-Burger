@@ -26,6 +26,8 @@ export default function Bevrage() {
             src="/images/providers.png"
             alt="Nuestros proveedores oficiales"
             className="w-full h-auto object-contain drop-shadow-sm select-none"
+            loading="lazy"
+            decoding="async"
           />
         </Motion.div>
       </div>

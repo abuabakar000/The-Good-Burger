@@ -48,6 +48,8 @@ export default function Salads() {
                         src={b.thumb}
                         alt={b.name}
                         className="h-16 sm:h-20 lg:h-24 w-auto object-contain drop-shadow-md"
+                        loading="lazy"
+                        decoding="async"
                       />
                     </Motion.div>
                     <span
@@ -80,6 +82,8 @@ export default function Salads() {
                   exit={{ opacity: 0, scale: 0.9, y: -20 }}
                   transition={{ duration: 0.4, ease: "easeOut" }}
                   className="relative z-10 w-full h-full object-contain drop-shadow-[0_20px_40px_rgba(0,0,0,0.15)]"
+                  loading="lazy"
+                  decoding="async"
                 />
               </AnimatePresence>
             </div>
