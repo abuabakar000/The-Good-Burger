@@ -44,7 +44,7 @@ export default function Menu() {
 
       <MenuCategoryNav />
 
-      <main className="relative">
+      <div className="relative">
         {/* Burgers Section */}
         <SingleBurgers />
 
@@ -66,7 +66,7 @@ export default function Menu() {
         <Salads />
 
         <Bevrage />
-      </main>
+      </div>
     </>
   );
 }
