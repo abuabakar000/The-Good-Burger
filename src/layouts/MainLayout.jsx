@@ -10,7 +10,7 @@ export default function MainLayout({ children }) {
         <div className="bg-[#eef0e6] min-h-screen text-neutral-900 selection:bg-emerald-500 selection:text-white">
             <Navbar />
 
-            <AnimatePresence initial={false}>
+            <AnimatePresence mode="popLayout" initial={false}>
                 <Motion.main
                     key={location.pathname}
                     initial={{ opacity: 0, y: 10 }}
